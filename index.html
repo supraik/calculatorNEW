@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled autofocus>
+    
+        <button onclick="appendNumber('7')" id="7">7</button>
+        <button onclick="appendNumber('8')" id="8">8</button>
+        <button onclick="appendNumber('9')" id="9">9</button>
+        <button onclick="appendNumber('/')" id="/">/</button>
+        <button onclick="appendNumber('4')" id="4">4</button>
+        <button onclick="appendNumber('5')" id="5">5</button>
+        <button onclick="appendNumber('6')" id="6">6</button>
+        <button onclick="appendNumber('*')" id="*">*</button>
+        <button onclick="appendNumber('1')" id="1">1</button>
+        <button onclick="appendNumber('2')" id="2">2</button>
+        <button onclick="appendNumber('3')" id="3">3</button>
+        <button onclick="appendNumber('-')" id="-">-</button>
+        <button onclick="appendNumber('0')" id="0">0</button>
+        <button onclick="appendNumber('.')" id=".">.</button>
+        <button onclick="clearDisplay()" id="CE">C</button>
+        <button onclick="appendNumber('+')" id="+">+</button>
+        <button onclick="back()" id="backk"><=</button>
+        <button onclick="appendNumber('(')" id="openB">(</button>
+        <button onclick="appendNumber(')')" id="closeB">)</button>
+        <button onclick="additiveInverse()" id="+-">+/-</button>
+        <button onclick="calculate()" style="grid-column: span 4;" id="=">=</button>
+    </div>
+
+    <footer class="footer"> 
+        <div class="foot" style="color:gainsboro">connect us: <a href="https://www.linkedin.com/feed/" class="anchor"><i class="fa-brands fa-linkedin" id="linked"  rel="noopener noreferrer" aria-label="GitHub Profile"></i></a> </div>
+      
+    </footer>
+    <script src="calc.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
+
+</body>
+</html>
