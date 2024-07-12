@@ -172,4 +172,12 @@ document.addEventListener("keydown",function(event)
     {   
         document.getElementById("=").click();
     }
+    else if(event.key=="Delete")
+    {   
+         document.getElementById("CE").click();
+    } 
+    else if(event.key==".")
+    {   
+        document.getElementById(".").click();
+    } 
 });
